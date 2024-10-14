@@ -1,0 +1,29 @@
+body {
+  background-image: url("bunga.jpeg"); /* Ganti dengan path gambar Anda */
+  background-size: cover; /* Menyesuaikan ukuran gambar agar memenuhi layar */
+  background-position: center; /* Memusatkan gambar di tengah */
+  background-repeat: no-repeat; /* Mencegah gambar diulang */
+  color: rgb(
+    248,
+    245,
+    245
+  ); /* Mengatur warna teks menjadi putih agar terlihat jelas */
+}
+
+.container {
+  background-color: rgba(
+    21,
+    95,
+    231,
+    0.8
+  ); /* Warna latar belakang untuk kontainer dengan transparansi */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5cap rgba(158, 43, 158, 0.1); /* Bayangan untuk efek kedalaman */
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: black; /* Mengubah warna teks judul menjadi lebih gelap agar kontras dengan latar belakang */
+}
